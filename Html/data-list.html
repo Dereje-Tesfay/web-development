@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../milligram/dist/milligram.css">
+    <style>
+        form {
+            width: 30vw;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>data-list</h2>
+        <input type="text" list="country">
+        <datalist id="country">
+            <option data-value="1">ethiopia</option value="">
+            <option data-value="2">kenya</option>
+            <option data-value="5">djibouti</option>
+            <option data-value="3">sudan</option>
+            <option data-value="4">eritria</option>
+            <option data-value="6">egypt</option>
+        </datalist>
+
+
+
+
+        <h2> dropdown-list</h2>
+        <h2>courses</h2>
+        <select>
+            <option></option>
+            <option>c++</option>
+            <option>html</option>
+            <option>css</option>
+            <option selected>javascript</option>
+        </select>
+
+
+
+
+        <h2>multiple</h2>
+
+        <select multiple>
+            <optgroup label="front-end">
+                <option>css</option>
+                <option>html</option>
+                <option>javascript</option>
+            </optgroup>
+            <optgroup label="back-end">
+                <option>java</option>
+                <option>phyton</option>
+                <option>djingo</option>
+                <option>node-js</option>
+            </optgroup>
+        </select>
+
+
+        <h4>checkbox</h4>
+        <div>
+            <input type="checkbox">
+            <label for="checkbox" class="label-inline">front-end</label>
+        </div>
+        <div>
+            <input type="checkbox">
+            <label for="checkbox" class="label-inline">back-end</label>
+        </div>
+        <h4>radio</h4>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="gender" class="label-inline">male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female">
+            <label for="gender" class="label-inline">female</label>
+        </div>
+
+        <input type="range" min="0" max="100" value="70">
+        <input type="file" accept="image/*">
+
+        <fieldset>
+            <legend>blling form</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+             <legennd> payment</legennd>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+        <input type="color" >
+        <input type="submit" value="">
+        
+    </form>
+</body>
+
+</html>

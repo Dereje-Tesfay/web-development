@@ -1,0 +1,59 @@
+.outer-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.container{
+border:1px solid blue;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+height: 80vh;
+width: 100vw;
+box-sizing: border-box;
+flex-direction: row;
+
+}
+.box{
+    width: 5vw;
+    height: 10vh;
+margin: 10px;
+flex-basis: 10rem;
+flex-shrink: 2;
+}
+.box-1{
+    background-color: darkorange;
+    flex-shrink: 0;
+}
+.box-2{
+    background-color: gold;
+}
+.box-3{
+    background-color: greenyellow;
+}
+.box-4{
+    background-color: darkorange;
+   
+}
+.box-5{
+    background-color: gold;
+}
+.box-6{
+    background-color: greenyellow;
+}
+.box-7{
+    background-color: darkorange;
+   
+}
+.box-8{
+    background-color: gold;
+}
+.box-9{
+    background-color: greenyellow;
+  
+}

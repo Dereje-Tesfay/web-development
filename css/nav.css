@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 200vh;
+
+}
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: dodgerblue;
+    display: flex;
+color: white;
+justify-content: space-between;
+}
+.list{
+  
+    display: flex;
+    flex-direction: row;
+padding: 10px;
+font-size: 22px;
+}
+.nav-bar{
+    padding: 2rem;
+}
+h2:hover{
+    color: rgb(133, 98, 98);
+    cursor: pointer;
+}
+h2{
+  padding-top: 2rem;
+}
+li:hover{
+    background-color: rgb(98, 100, 104);
+    cursor: pointer;
+}
+.box{
+  list-style: none;
+}
+

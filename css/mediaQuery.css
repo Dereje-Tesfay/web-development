@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.box{
+    background-color: goldenrod;
+    margin: 10px;
+    border-radius: 1rem;
+    padding: 0.6rem;
+
+}
+.box:nth-child(2){
+    background-color: dodgerblue;
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+    .container{
+        flex-direction: row;
+    }
+    .box:nth-child(2){
+        background-color: chocolate;
+    }
+    .box{
+        background-color: crimson;
+    }
+}
+.box{
+    background-color: forestgreen;
+    color: ghostwhite;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.box p{
+    font-size: 1.8rem;
+}
+@media screen and (min-width:800px){
+    .container{
+        flex-direction: row-reverse;
+     
+    }
+    .box{
+        background-color: hotpink;
+        color: black;
+    }
+    .box:nth-child(2){
+        background-color: lime;
+        color: black;
+    }
+}

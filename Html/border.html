@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            height:100vh;
+            align-items:center;
+
+        }
+        .grandfather{
+            border: 20px solid green;
+            width:100px;
+
+        }
+        .parent{
+            border:20px solid red;
+        }
+        .child{
+            border:20px solid blue;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="grandfather">
+        <div class="parent">
+        <div class="child"></div>
+        </div>
+       </div>
+   </div>
+    <script>
+        let grandfather=document.querySelector(".grandfather");
+        let parent=document.querySelector(".parent");
+        let child=document.querySelector(".child");
+
+
+
+        grandfather.addEventListener("click",e=>{
+            console.log("grandfather1");
+           
+        })
+
+        parent.addEventListener("click",e=>{
+            console.log("parent");
+        })
+
+        child.addEventListener("click",e=>{
+            console.log("child2");
+        })
+    </script>
+</body>
+</html>

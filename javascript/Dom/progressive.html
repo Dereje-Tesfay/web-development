@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {}
+
+        .container {
+            background-color: rgb(204, 204, 204);
+            border-radius: 15px;
+
+        }
+
+        .proggres-bar {
+            background-color: rgb(10, 143, 187);
+            width: 50px;
+            border-radius: 15px;
+            padding: .5rem;
+            text-align: right;
+            color: white;
+            font-weight: bold;
+            transition: ;
+        }
+
+        button {
+            background-color: rgb(201, 11, 201);
+            border: none;
+            padding: .5rem;
+            outline: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            transition: background-color 3s;
+        }
+
+        .value {
+            background-color: rgb(177, 7, 177);
+            border-radius: 100%;
+
+            line-height: 2rem;
+
+
+            color: white;
+
+
+
+        }
+
+        .containers {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="progresive"></div>
+        <div class="proggres-bar">10%</div>
+    </div>
+    <div class="containers">
+        <button class="btn">click me</button>
+        <span class="value">10%</span>
+    </div>
+    <script src="progresive.js"></script>
+</body>
+
+</html>

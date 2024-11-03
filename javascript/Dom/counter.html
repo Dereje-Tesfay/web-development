@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>counter</title>
+    <style>
+        body {
+            background-image: url("greenRea.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+
+            text-align: center;
+            align-content: center;
+
+            flex-direction: column;
+            background-color: rgb(66, 35, 35);
+            width: 110px;
+            border-radius: 10px;
+            height: 200px;
+            padding: 1rem;
+
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 1rem;
+        }
+
+        .btn4:hover {
+            cursor: pointer;
+        }
+
+        .btn4 {
+            margin-bottom: 1rem;
+        }
+
+        .decrease {
+            border: none;
+            background-color: red;
+            border-radius: 3px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .reset {
+            border: none;
+            background-color: rgb(19, 14, 14);
+            border-radius: 3px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .increase {
+            border: none;
+            background-color: rgb(31, 229, 13);
+            border-radius: 3px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+            align-content: center;
+            align-items: center;
+
+        }
+
+        span {
+            padding: 1rem;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            margin: 2rem;
+            color: rgb(153, 149, 149);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <h1>counter</h1>
+            <span class="value">0</span>
+            <div class="btn">
+                <button class="decrease btn4" onkeypress="decreaseBtn">-</button>
+
+
+                <button class="reset btn4">0</button>
+
+
+                <button class="increase btn4">+</button></div>
+
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+
+</html>

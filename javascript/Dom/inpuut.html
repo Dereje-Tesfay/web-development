@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>input box</title>
+    <style>
+        label {
+            display: block;
+            padding: .3rem;
+        }
+
+        input {
+            padding: 0.5rem;
+            outline: none;
+            border: .5px solid darkblue;
+            border-radius: 4px;
+
+        }
+
+        button {
+            padding: .5rem;
+            margin: .5rem 1rem;
+            border-radius: 5px;
+            color: white;
+            background-color: green;
+            border: none;
+        }
+
+        #clear {
+
+            background-color: tomato;
+        }
+
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 50vh;
+            align-items: center;
+
+        }
+
+        form {
+            border: 1px solid beige;
+            border-radius: 10px;
+            box-shadow: 5px 4px 6px 5px rgb(245, 243, 241);
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" placeholder="Quantity" onkeypress="calculateTotalPrice()" min="0">
+            </div>
+            <div>
+                <label for="price">price:</label>
+                <input type="number" id="price" placeholder="price" onkeypress=" calculateTotalPrice()" min="0">
+            </div>
+            <div>
+                <label for="Total">Total:</label>
+                <input type="number" readonly id="total">
+            </div>
+            <button type="reset">clear</button>
+            <button type="button">calculate</button>
+
+        </form>
+    </div>
+    <script src="../DOM/input.js"></script>
+</body>
+
+</html>

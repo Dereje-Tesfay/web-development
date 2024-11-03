@@ -1,0 +1,139 @@
+body{
+    height: 200vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border: 1px solid white;
+
+    height: 70px;
+}
+
+.image1{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+    opacity: 2;
+}
+.image2{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 50px;
+    opacity: 4;
+   
+
+}
+h1{
+    color: white;
+}
+.para{
+    color: black;
+    width: 400px; 
+    border-radius: 20px;
+    background-color: deepskyblue;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    box-shadow: 2px 3px 5px tomato;
+    
+
+}
+h2{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+    margin-top: 20px;
+    color: white;
+}
+
+.list{
+    display: flex;
+ width: 100%;
+}
+.item{
+    padding: 40px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: yellowgreen;
+    color: red;
+}
+.next-container{
+    
+   display: flex; 
+   justify-content: space-around;
+   background-color: black;
+}
+button{
+ margin: 30px;
+ 
+    width: 50px;
+    background-color: fuchsia;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+p:hover{
+    background-color: lightgreen;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+  background-color: dodgerblue;
+  color: tomato;
+  cursor: pointer;
+}
+@media screen and (min-width:600px) {
+    .image2{
+        flex-direction: column-reverse;
+    }
+}
+
+.word{
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    display:inline-flex;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow:5px yellow;
+   
+}
+.p1{
+    background-color: chocolate;
+    box-shadow: 3px 6px 4px rgb(46, 46, 45);
+}
+.p2{
+    background-color: orange;
+    box-shadow: 3px 6px 4px rgb(129, 60, 39);
+}
+.p3{
+    background-color: rgb(44, 74, 94);
+    box-shadow: 3px 6px 4px ;
+}
+table,th,td,tr {
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: 17rem;
+    margin-top: 30px;
+
+}

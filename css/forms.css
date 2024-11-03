@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+   margin-left: 4rem;
+    
+  
+}
+form{
+    border: .1px solid rgb(184, 177, 166);
+    box-shadow: 1px 1px 1px 3px rgb(174, 221, 221);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+.form-group{
+    padding: 10px;
+    margin: 10px;
+   
+    
+}
+.check-box{
+    
+   
+    display:flex;
+   
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+label{
+    display: block;
+}
+button{
+    display: block;
+
+}
+#btn{
+    padding: 1rem;
+    width: 100%;
+    
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    padding: 1rem;
+    width: 40%;
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+p{
+    padding: 10px;
+}
+.box{
+    background-color: rgb(204, 198, 187);
+    border-radius: 10px;
+}
+.anch{
+    padding-left: 1rem;
+}

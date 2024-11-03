@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>accordial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #dddddd;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .container:hover {
+            cursor: pointer;
+            background-color: #cccccc;
+        }
+
+        .btn {
+            border: none;
+            outline: none;
+
+            margin-top: 1.5rem;
+            margin-right: 1rem;
+            padding: .5rem;
+            background-color: inherit;
+        }
+
+        .collapsible__conttent {
+            display: none;
+            font-size: 1.6rem;
+
+        }
+
+        h1 {
+            font-size: 1.6rem;
+        }
+
+        .collapsible--expanded .collapsible__conttent {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box-content">
+        <div class="collapsible collapsible--expanded">
+            <div class="container">
+                <h1>Section 1</h1>
+                <button class="btn">+</button>
+            </div>
+            <div class="collapsible__conttent">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo molestiae facilis aliquam id corrupti
+                quam
+                accusantium aperiam totam obcaecati?
+            </div>
+
+        </div>
+    </div>
+    <div class="box-content">
+        <div class="collapsible collapsible--expanded">
+            <div class="container">
+                <h1>Section 2</h1>
+                <button class="btn">+</button>
+            </div>
+            <div class="collapsible__conttent">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo molestiae facilis aliquam id corrupti
+                quam
+                accusantium aperiam totam obcaecati?
+            </div>
+
+        </div>
+    </div>
+    <div class="box-content">
+        <div class="collapsible collapsible--expanded">
+            <div class="container">
+                <h1>Section 3</h1>
+                <button class="btn">+</button>
+            </div>
+            <div class="collapsible__conttent">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo molestiae facilis aliquam id corrupti
+                quam
+                accusantium aperiam totam obcaecati?
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="accordian.js"></script>
+</body>
+
+</html>

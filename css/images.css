@@ -1,0 +1,22 @@
+img{
+    width: 200px;
+    height:200px ;
+    clip-path: polygon(0% 20%,60% 20%,60% 0%,100% 50%,60% 100%,60% 80%,0% 80%);
+    
+}
+.hover:hover{
+    filter: blur(80%);
+    filter: grayscale(70%);
+    filter: contrast(90%);
+    filter: opacity(80%);
+    filter: saturate(75%);
+    cursor: pointer;
+}
+/* body{
+    background-image: url(../html/img_lights_wide.jpg);
+  background-repeat: ;
+  
+  background-size: cover;
+  height: 150vh;
+  background-attachment: fixed; */
+ 

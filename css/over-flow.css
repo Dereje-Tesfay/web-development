@@ -1,0 +1,8 @@
+.box{
+    border: none;
+    width: 50vw;
+    height: 150px;
+    overflow:scroll;
+    padding: 10px;
+    overflow-y: auto;
+}

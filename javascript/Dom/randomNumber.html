@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>randemNumber</title>
+    <style>
+        body {
+            background-color: rgb(24, 21, 21);
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .value {
+            background-color: rgb(161, 35, 161);
+            margin-bottom: 1rem;
+            width: 50px;
+            margin-left: 3.5rem;
+            padding: 7px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            background-color: yellowgreen;
+            width: 250px;
+            padding: 1rem;
+            border-radius: 1rem;
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+            align-items: center;
+        }
+
+        .values {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem;
+
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            width: 80px;
+            margin-left: 3rem;
+            background-color: rgb(20, 74, 129);
+            color: white;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="container">
+            <h1>Randem Number</h1>
+            <div class="values">
+                <span class="value">?</span>
+                <button class="btn">Generate</button>
+            </div>
+        </div>
+    </div>
+    <script src="rademNumber.js"></script>
+</body>
+
+</html>
