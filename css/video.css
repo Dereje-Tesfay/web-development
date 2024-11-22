@@ -25,6 +25,12 @@ color: white;
    margin: 90px;
     object-fit: cover;
 }
+.v1{
+    width: 200px;
+    height: 200px;
+   margin: 90px;
+    object-fit: cover;
+}
 .image{
     height: 80px;
     width: 80px;
